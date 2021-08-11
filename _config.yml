@@ -138,10 +138,10 @@ yat:
 
 # Page default value
 # defaults:
-#   home:
-#     heading: "개발 블로그 이사중 🚛💨"
-#     subheading: "으쌰으쌰"
-#     banner: "https://www.zoomkoding.com/static/c3f29d0f2edc6748b1eebb2a38bf0d5f/zoomkoding.gif"
+   home:
+     heading: "개발 블로그 이사중 🚛💨"
+     subheading: "으쌰으쌰"
+     banner: "https://www.zoomkoding.com/static/c3f29d0f2edc6748b1eebb2a38bf0d5f/zoomkoding.gif"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
