@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: 개발 블로그 이사중 🚛💨
+email: tndus4243@naver.com
+author: 박수연
 copyright: Copyright © 1970-2010
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -35,7 +35,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://suyeon-b.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "" # the favicon for your site
+favicon: assets/favicon.ico/favicon.ico # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
