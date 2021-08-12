@@ -1,4 +1,5 @@
 home:
   heading: "개발 블로그 이사중 🚛💨"
   subheading: "토마호크 먹고싶다"
-  banner: https://www.zoomkoding.com/static/c3f29d0f2edc6748b1eebb2a38bf0d5f/zoomkoding.gif
+  img: https://www.zoomkoding.com/static/c3f29d0f2edc6748b1eebb2a38bf0d5f/zoomkoding.gif
+  #banner: ""
