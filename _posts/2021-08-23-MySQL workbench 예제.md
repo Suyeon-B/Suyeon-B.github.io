@@ -77,7 +77,7 @@ SCHEMAS 부분에서 우클릭 > 'Create Schema...' 선택
 
 ### 2-4. 'CREATE' 로 테이블 생성하기
 
-간단하게 userName, age, gender 정보를 담고 있는 'db_test' 테이블을 만들어보겠습니다.![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/MySQL workbench/MySQL workbench첨부 Img 9.png)
+간단하게 userName, age, gender 정보를 담고 있는 'db_test' 테이블을 만들어보겠습니다.![image](/assets/images/post_images/MySQL workbench/MySQL workbench첨부 Img 9.png)
 
 위와 같이 create 문을 입력한 뒤,
 
