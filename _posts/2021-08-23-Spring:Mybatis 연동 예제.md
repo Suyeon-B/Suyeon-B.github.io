@@ -43,7 +43,7 @@ tags: [DB, MyBatis, Spring, MyBatis-Spring]
 
 👇🏻 아래 포스팅에서 예제 테이블 생성 및 정보 입력/수정을 다뤘습니다.
 
-[MySQL workbench 예제 ) 테이블 생성 및 정보 입력하기! 📝]()
+[[MySQL workbench 예제] 테이블 생성 및 정보 입력하기! 📝](https://suyeon-b.github.io/db/2021/08/23/MySQL-workbench-%EC%98%88%EC%A0%9C.html)
 
 예제 테이블 생성이 완료되셨다면 다음 단계로 넘어가겠습니다.
 
@@ -53,23 +53,23 @@ tags: [DB, MyBatis, Spring, MyBatis-Spring]
 
 ### 2-1. '우클릭 ➡️ Project...' 선택
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 1.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 1.png)
 
 ### 2-2. 'Spring Legacy Project' 선택
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 3.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 3.png)
 
 ### 2-3. 'Spring MVC Project' 선택 및 프로젝트 이름 설정
 
 (저는 DB_selftest로 하겠습니다.)
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 4.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 4.png)
 
 ### 2-4. 기본 파일들 생성
 
 저는 아래와 같은 경로로 만들어두었습니다.
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 2.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 2.png)
 
 ---
 
@@ -81,7 +81,7 @@ tags: [DB, MyBatis, Spring, MyBatis-Spring]
 
 기본적으로는 아래 사진과 같이 되어있으나, 우리는 파일을 새로 생성하고 경로를 바꾸었으니 변경해줍니다.
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 5.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 5.png)
 
 변경된 코드는 다음과 같습니다.
 
@@ -268,7 +268,7 @@ mysql workbench에서 설정한 포트번호와 mysql root계정으로 진행하
 
 우선 아래와 같이 패키지, 파일들을 생성해줍니다.
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 6.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 6.png)
 
 - DAO <sup>[1](#footnote_1)</sup>: Data Access Object
 - DTO <sup>[2](#footnote_2)</sup> : Data Transfer Object
@@ -723,7 +723,7 @@ $(".all").click(function() {
 
 아래 사진은 '전부 다 출력 버튼'을 누른 결과입니다.
 
-![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 7.png)
+![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 7.png)
 
 아래와 같이 eclipse console 상에서도 값을 잘 가져오는 것을 확인할 수 있습니다.![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 8.png)
 
