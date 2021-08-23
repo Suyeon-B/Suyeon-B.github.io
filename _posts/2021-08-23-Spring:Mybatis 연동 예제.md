@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [MyBatis-Spring 예제] ➊ Spring & MyBatis & MySQL 설정하기
+title: MyBatis-Spring 예제) ➊ Spring & MyBatis & MySQL 설정하기
 categories: DB
 tags: [DB, MyBatis, Spring, MyBatis-Spring]
 ---
