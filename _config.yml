@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 개발 블로그 이사중 🚛💨 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsuyeon-b.github.io&count_bg=%23FF5100&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+title: 개발 블로그 이사중 🚛💨
 email: 'tndus4243@naver.com'
 author: '박수연'
 copyright: Copyright © 1970-2010
@@ -49,7 +49,7 @@ yat:
 # header_transparent: true
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: [G-66SKJ6STTN]
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
