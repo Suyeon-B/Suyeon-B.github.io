@@ -3,6 +3,9 @@ layout: post
 title: MyBatis-Spring 예제) ➋ MyBatis-Spring 연결 & DB 테스트
 categories: DB
 tags: [DB, MyBatis, Spring, MyBatis-Spring]
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 지난 [MyBatis-Spring 예제 ➊편](https://suyeon-b.github.io/db/2021/08/23/Spring-Mybatis-%EC%97%B0%EB%8F%99-%EC%98%88%EC%A0%9C.html)에서 Spring, MyBatis, MySQL 설정을 마쳤습니다.

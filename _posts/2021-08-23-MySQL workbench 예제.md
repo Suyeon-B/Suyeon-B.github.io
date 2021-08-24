@@ -3,6 +3,9 @@ layout: post
 title: MySQL workbench 예제) 테이블 생성 및 정보 입력하기! 📝
 categories: DB
 tags: [DB, MySQL, MySQL workbench]
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 > **구현 환경은 아래와 같습니다.**
