@@ -50,12 +50,7 @@ yat:
 
 # Google analytics
 # Analytics
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-66SKJ6STTN"
-    anonymize_ip         : # true, false (default)
+google_analytics: G-66SKJ6STTN
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
@@ -173,7 +168,7 @@ lang: "ko"  # default lang is en
 
 # Disqus comments
 disqus:
-   shortname: suyeon-gitblog
+   shortname: suyeon-gitblog 
 
 # Gitment comments
 # gitment:
