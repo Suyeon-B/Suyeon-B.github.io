@@ -1,147 +1,29 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
 
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
 
-<url>
-  <loc>https://suyeon-b.github.io/</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/about.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/archives.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/categories.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/tags.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/db/2021/08/23/Spring-Mybatis-%EC%97%B0%EB%8F%99-%EC%98%88%EC%A0%9C.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/db/2021/08/23/Spring-Mybatis-%EC%97%B0%EB%8F%99-%EC%98%88%EC%A0%9C-2.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/db/2021/08/23/MySQL-workbench-%EC%98%88%EC%A0%9C.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/javascript/2021/08/12/json%EC%9D%B4%EB%9E%80.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/db/2021/08/12/MyBatis%EB%9E%80.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/javascript/2021/08/12/Ajax%EB%9E%80.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/%F0%9F%93%92/2021/08/11/%EC%9D%B4%EC%82%AC-%ED%9B%84-%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/jekyll/2018/12/07/welcome-to-jekyll.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/markdown/2018/12/05/an-exhibit-of-markdown.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/markdown/2018/05/26/mathjax-test.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/example/2017/12/18/video-example.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/example/2017/12/15/table-example.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/example/2017/12/08/mermaid-example.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/example/2017/12/04/plantuml-example.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/markdown/2017/06/10/quick-mardown-example.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/junk/2017/05/20/this-post-demonstrates-post-content-styles.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/junk/2016/08/12/my-example-post.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/misc/2016/05/20/super-long-article.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/misc/2016/05/19/super-short-article.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/markdown/2016/01/01/another-test-markdown.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/markdown/2015/02/28/test-markdown.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://suyeon-b.github.io/index.html</loc>
-  <lastmod>2021-08-24T02:58:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
 
-
+    </url>
+  {% endfor %}
 </urlset>
