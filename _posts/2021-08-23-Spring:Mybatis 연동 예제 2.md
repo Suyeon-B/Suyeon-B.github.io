@@ -102,7 +102,7 @@ public class DB_DAO extends SqlSessionDaoSupport implements DB_DAO_INTERFACE{
 
 📄DB_DTO.java
 
-```
+```java
 package data.DTO;
 
 public class DB_DTO {
@@ -140,7 +140,7 @@ public class DB_DTO {
 
 📄DB_SERVICE_INTERFACE.java
 
-```
+```java
 package data.SERVICE;
 
 import data.DTO.DB_DTO;
@@ -163,7 +163,7 @@ public interface DB_SERVICE_INTERFACE {
 
 📄DB_SERVICE.java
 
-```
+```java
 package data.SERVICE;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -366,7 +366,7 @@ public class HomeController {
 
 📄home.css
 
-```jsp
+```css
 @charset "UTF-8";
 
 .btn_container{
@@ -411,7 +411,7 @@ public class HomeController {
 
 📄home.js
 
-```jsp
+```js
 $(".name").click(function() {
 	let input_box = $(".input_box").val();
 	$.ajax({
