@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 개발 블로그 이사중 🚛💨
-email: tndus4243@naver.com
-author: 박수연
+title: 개발 블로그 이사중 🚛💨 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsuyeon-b.github.io&count_bg=%23FF5100&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+email: 'tndus4243@naver.com'
+author: '박수연'
 copyright: Copyright © 1970-2010
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -141,7 +141,7 @@ lang: "ko"  # default lang is en
 #   home:
 #     heading: "개발 블로그 이사중 🚛💨"
 #     subheading: "으쌰으쌰"
-#     banner: "https://www.zoomkoding.com/static/c3f29d0f2edc6748b1eebb2a38bf0d5f/zoomkoding.gif"
+#     banner: 
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
