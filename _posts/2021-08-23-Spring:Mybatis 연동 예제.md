@@ -264,6 +264,6 @@ mysql workbench에서 설정한 포트번호와 mysql root계정으로 진행하
 
 이번 편에서는 설정만 하고, 실제 연결은 다음 포스팅
 
-[MyBatis-Spring 연결 & DB 테스트]()
+[MyBatis-Spring 연결 & DB 테스트](https://suyeon-b.github.io/db/2021/08/23/Spring-Mybatis-%EC%97%B0%EB%8F%99-%EC%98%88%EC%A0%9C-2.html)
 
 에서 다루도록 하겠습니다! 👋👋
