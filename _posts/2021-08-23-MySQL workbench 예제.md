@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MySQL workbench 예제) 테이블 생성 및 정보 입력하기! 📝
+title: MySQL workbench 예제) 테이블 생성 및 정보 입력하기
 categories: DB
 tags: [DB, MySQL, MySQL workbench]
 sitemap :
