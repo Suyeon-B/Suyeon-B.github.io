@@ -6,6 +6,7 @@ tags: [DB, MyBatis, Spring, MyBatis-Spring]
 sitemap :
   changefreq : daily
   priority : 1.0
+comments: true
 ---
 
 👇🏻 MyBatis의 개념에 대해 먼저 알아보시려면 👇🏻
