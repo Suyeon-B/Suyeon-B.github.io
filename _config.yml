@@ -169,7 +169,7 @@ lang: "ko"  # default lang is en
 
 # Gitment comments
 gitment:
-  username: Suyeon Bak
+  username: Suyeon-B
   repo: comments
   client_id: 02caca6bbae1a7ad33a1
   client_secret: a2c9f08e73745f5c8f8208c9da78b6a7df8c6d26
