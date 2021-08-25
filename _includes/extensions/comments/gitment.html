@@ -14,11 +14,11 @@
   <script>
     var gitment = new Gitment({
       // id: '{{ page.id }}',
-      owner: '{{ site.gitment.username }}',
-      repo: '{{ site.gitment.repo }}',
+      owner: '{{ gitment.username }}',
+      repo: '{{ gitment.repo }}',
       oauth: {
-        client_id: '{{ site.gitment.client_id }}',
-        client_secret: '{{ site.gitment.client_secret }}',
+        client_id: '{{ gitment.client_id }}',
+        client_secret: '{{ gitment.client_secret }}',
       },
     });
     gitment.render('gitment_thread')

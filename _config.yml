@@ -168,13 +168,12 @@ lang: "ko"  # default lang is en
 #   shortname: suyeon-gitblog 
 
 # Gitment comments
-site: 
-  gitment:
-    username: Suyeon-B
-    repo: Suyeon-B/comments
-    client_id: 02caca6bbae1a7ad33a1
-    client_secret: a2c9f08e73745f5c8f8208c9da78b6a7df8c6d26
-    redirect_uri: https://suyeon-b.github.io/   # If you use a custom domain name
+gitment:
+  username: Suyeon-B
+  repo: Suyeon-B/comments
+  client_id: 02caca6bbae1a7ad33a1
+  client_secret: a2c9f08e73745f5c8f8208c9da78b6a7df8c6d26
+  redirect_uri: https://suyeon-b.github.io/   # If you use a custom domain name
 
 # Build settings
 # highlighter: none
