@@ -169,6 +169,7 @@ lang: "ko"  # default lang is en
 
 # Gitment comments
 gitment:
+  id: test
   username: Suyeon-B
   repo: comments
   client_id: 02caca6bbae1a7ad33a1
