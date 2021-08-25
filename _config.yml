@@ -169,7 +169,7 @@ lang: "ko"  # default lang is en
 
 # Gitment comments
 gitment:
-  username: Suyeon-B
+  username: Suyeon Bak
   repo: comments
   client_id: 02caca6bbae1a7ad33a1
   client_secret: a2c9f08e73745f5c8f8208c9da78b6a7df8c6d26
@@ -189,6 +189,7 @@ plugins:
   - jekyll-spaceship
 
 # Defaults
+'''
 defaults:
   # _posts
   - scope:
@@ -201,3 +202,4 @@ defaults:
       comments: true
       share: true
       related: true
+'''
