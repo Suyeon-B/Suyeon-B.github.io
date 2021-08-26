@@ -7,6 +7,12 @@
   min-width: 200px;
   max-width: 230px;
 
+  &:hover{
+    background-color: #eeeeee;
+    transition: 0.2s;
+    padding: 8px 12px;
+  }
+
   .post-menu-title {
     font-size: $base-font-size * 1.5;
     margin-bottom: 14px;
