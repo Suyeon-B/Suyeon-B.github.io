@@ -1,7 +1,15 @@
 ---
 layout: post
 title: MyBatis-Spring 예제) ➊ Spring & MyBatis & MySQL 설정하기
+author: SuyeonBak
 categories: Database
+banner:
+  image: /assets/images/post_images/Spring-MyBatis 연동 포스팅/MyBatis-Spring.png
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: none"
 tags: [Database, MyBatis, Spring, MyBatis-Spring]
 sitemap :
   changefreq : daily

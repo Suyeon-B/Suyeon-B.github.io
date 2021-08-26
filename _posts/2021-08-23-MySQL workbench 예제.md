@@ -1,7 +1,15 @@
 ---
 layout: post
 title: MySQL workbench 예제) 테이블 생성 및 정보 입력하기
+author: SuyeonBak
 categories: Database
+banner:
+  image: https://media.vlpt.us/images/sgh002400/post/005be64e-a3e4-4535-9b97-72876a30ef97/MySQL.png
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: none"
 tags: [Database, MySQL, MySQL workbench]
 sitemap :
   changefreq : daily
