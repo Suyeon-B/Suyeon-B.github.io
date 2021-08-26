@@ -213,7 +213,12 @@ html {
     font-size: 40px;
     margin-right: 5px;
     margin-bottom: 5px;
-}
+  }
+  i.fab.fa-github-square:hover, i.fas.fa-envelope-square:hover {
+    cursor: pointer;
+    color: #ff5100;
+    transition: color 0.2s;
+  }
 
 }
 
