@@ -70,7 +70,7 @@ sitemap :
 
 댓글들을 따로 관리하기 위함입니다. 저는 [comments](https://github.com/Suyeon-B/comments) 라는 이름으로 생성했습니다.
 
-![image](assets/images/post_images/utterance/utterance 1.png)
+![image](/assets/images/post_images/utterance/utterance 1.png)
 
 
 
@@ -78,7 +78,7 @@ sitemap :
 
 ### 2. utterances 설치하기
 
-![image](assets/images/post_images/utterance/utterance 2.png)
+![image](/assets/images/post_images/utterance/utterance 2.png)
 
 [이 링크](https://github.com/apps/utterances)를 통해 설치하시면 됩니다. 설치를 할 때 달린 댓글이 모든 저장소의 Issue들에 업로드가 되게 할지, 아니면 특정 한 저장소의 Issue에만 업로드가 되게 할지 선택할 수 있습니다. 저는 1번에서 생성한 레포지토리에만 모아 관리하기 위해 '<span style="color:#ff5100">**Only Select Repositories**</span> 선택 > comments'로 지정 후 설치했습니다.
 
@@ -142,8 +142,8 @@ sitemap :
 
 이후 블로그에서 command+shift+r (캐쉬 새로고침) 하시면, 깃허브 댓글 창이 생성되어있을겁니다.
 
-![image](assets/images/post_images/utterance/utterance 3.png)
+![image](/assets/images/post_images/utterance/utterance 3.png)
 
 관리자 인증을 위해 최초 로그인이 필요하니, 로그인 해주시면 정상적으로 댓글 기능이 활성화된 것을 확인할 수 있습니다. 👏
 
-![image](assets/images/post_images/utterance/utterance 3.png)
+![image](/assets/images/post_images/utterance/utterance 4.png)
