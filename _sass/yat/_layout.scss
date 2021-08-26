@@ -208,6 +208,13 @@ html {
       color: lighten($a-color, 10%);
     }
   }
+  
+  i.fab.fa-github-square, i.fas.fa-envelope-square {
+    font-size: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 }
 
 /**
