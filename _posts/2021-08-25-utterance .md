@@ -98,7 +98,7 @@ sitemap :
 
 
 
-	### 	3-2. Blog Post ↔️ Issue Mapping
+### 	3-2. Blog Post ↔️ Issue Mapping
 
 > 저는 고유한 값을 매핑시키기 위해 'Issue title contains page pathname' 선택했습니다.
 
