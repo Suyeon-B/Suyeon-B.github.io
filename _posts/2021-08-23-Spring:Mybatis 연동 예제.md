@@ -1,8 +1,8 @@
 ---
 layout: post
 title: MyBatis-Spring 예제) ➊ Spring & MyBatis & MySQL 설정하기
-categories: DB
-tags: [DB, MyBatis, Spring, MyBatis-Spring]
+categories: Database
+tags: [Database, MyBatis, Spring, MyBatis-Spring]
 sitemap :
   changefreq : daily
   priority : 1.0
