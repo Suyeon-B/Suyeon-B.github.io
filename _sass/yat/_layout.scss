@@ -137,7 +137,7 @@ html {
     &:not(:last-child) {
       margin-right: 24px;
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
@@ -677,7 +677,7 @@ html {
         color: #fff;
 
         &:hover {
-          text-decoration: underline;
+          text-decoration: none;
         }
       }
     }
