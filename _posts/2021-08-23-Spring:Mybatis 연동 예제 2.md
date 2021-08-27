@@ -485,7 +485,7 @@ $(".all").click(function() {
 
 ![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 7.png)
 
-아래와 같이 eclipse console 상에서도 값을 잘 가져오는 것을 확인할 수 있습니다.![image](/Users/suyeon/gitBlog/Suyeon-B.github.io/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 8.png)
+아래와 같이 eclipse console 상에서도 값을 잘 가져오는 것을 확인할 수 있습니다.![image](/assets/images/post_images/Spring-MyBatis 연동 포스팅/Spring-MyBatis 연동 첨부 Img 8.png)
 
 ---
 
