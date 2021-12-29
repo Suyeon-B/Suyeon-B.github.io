@@ -72,6 +72,7 @@ p.cursor {
 
 .name_wrapper {
     display: flex;
+    align-items: baseline;
 }
 
 .name {
@@ -82,8 +83,9 @@ p.cursor {
 
 .english_name {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     color: #ff5100;
+    margin-left: 5px;
 }
 
 .date, .category, .project_title{
