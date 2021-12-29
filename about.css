@@ -91,7 +91,7 @@ p.cursor {
     width: 175px;
 }
 
-.content.organ{
+.content.organ, .content.project_link{
     width: 200px;
 }
 
