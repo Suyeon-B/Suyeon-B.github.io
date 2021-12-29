@@ -75,7 +75,7 @@ p.cursor {
     font-weight: bold;
 }
 
-.date{
+.date, .category{
     color: #a1a1a1;
     width: 175px;
 }
