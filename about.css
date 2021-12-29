@@ -1,40 +1,43 @@
-.inform{
+.inform {
     padding: 0px 60px 30px 60px;
     background-color: #f0f0f0;
     display: flex;
 }
 
-/* .text_box{
-    font-size: 2rem;
-    text-align: start;
-    height: 200px;
-  }
-  
-  .blink {
-    animation: blink 0.5s infinite;
-    font-size: 2.5rem;
-  }
-  
-  @keyframes blink {
-    to {
-      opacity: 0;
-    }
-  } */
-
-.box{
+.box {
     height: 20vh; 
     display:flex; 
     flex-direction:column; 
     justify-content: center; 
-    align-items: flex-start;}
-  p.result1,p.result2{ display: inline-block; font-size:2rem; height:30px; line-height: 30px; border-right: 1px solid #fff; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; }
-  p.cursor {animation: cursor 0.4s infinite;}
+    align-items: flex-start;
+}
+
+p.result1,p.result2 { 
+    display: inline-block; 
+    font-size:2rem; 
+    height:30px; 
+    line-height: 30px; 
+    border-right: 1px solid #fff; 
+    padding-right: 2px; 
+    box-sizing: border-box; 
+    padding:0; 
+    margin:5px; 
+}
   
-   @keyframes cursor{ 
-        0%{border-right: 1px solid #fff} 
-        50%{border-right: 1px solid #000} 
-        100%{border-right: 1px solid #fff} 
-      }
+p.cursor {
+    animation: cursor 0.4s infinite;
+}
+   
+@keyframes cursor { 
+    0% {
+        border-right: 1px solid #fff
+    } 
+    50% {
+        border-right: 1px solid #000
+    } 
+    100% {border-right: 1px solid #fff
+    } 
+}
 
 .title_line {
     border-bottom-color: #f0f0f0;
@@ -55,5 +58,5 @@
 }
 
 .months{
-    margin-left: 20px;
+    margin-left: 10px;
 }

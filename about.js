@@ -1,17 +1,3 @@
-// const content = "안녕하세요! \n 외국어와 개발 공부를 즐기는 박수연입니다. :)";
-// const text = document.querySelector(".text");
-// let i = 0;
-
-// function typing(){
-//     let txt = content[i++];
-//     text.innerHTML += txt=== "\n" ? "<br/>": txt;
-//     if (i > content.length) {
-//         text.textContent = "";
-//         i = 0;
-//     }
-// }
-// setInterval(typing, 150)
-
 String.prototype.toKorChars = function() { 
     var cCho = [ 'ㄱ', 'ㄲ', 'ㄴ', 'ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ', 'ㅅ', 'ㅆ', 'ㅇ', 'ㅈ', 'ㅉ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ' ], 
     cJung = [ 'ㅏ', 'ㅐ', 'ㅑ', 'ㅒ', 'ㅓ', 'ㅔ', 'ㅕ', 'ㅖ', 'ㅗ', 'ㅘ', 'ㅙ', 'ㅚ', 'ㅛ', 'ㅜ', 'ㅝ', 'ㅞ', 'ㅟ', 'ㅠ', 'ㅡ', 'ㅢ', 'ㅣ' ], 
@@ -38,13 +24,6 @@ String.prototype.toKorChars = function() {
         // 중성 
         cho = (((cCode - jong) / 28 ) - jung ) / 21 
         // 초성 
-
-        //기본 코드 테스트가 ㅌㅔㅅ-ㅌ- 형식으로 저장됨 
-        // chars.push(cCho[cho], cJung[jung]); 
-        // if (cJong[jong] !== '') { 
-        //     chars.push(cJong[jong]); 
-        //     } 
-
 
         //  테스트라는 문장이 있으면 text 형식으로 저장되도록함 (타이핑을 위해서)
         chars.push(cCho[cho]);
