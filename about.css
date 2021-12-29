@@ -1,5 +1,5 @@
 .inform {
-    padding: 0px 60px 30px 60px;
+    padding: 50px 60px 30px 60px;
     background-color: #f0f0f0;
     display: flex;
 }
@@ -71,10 +71,15 @@ p.cursor {
 }
 
 .name{
-    font-size: large;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .date{
     color: #a1a1a1;
+    width: 175px;
+}
+
+.content.organ{
+    width: 200px;
 }
