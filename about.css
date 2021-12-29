@@ -7,6 +7,7 @@
 .text_box{
     font-size: 2rem;
     text-align: center;
+    height: 200px;
   }
   
   .blink {
