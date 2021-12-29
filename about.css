@@ -4,9 +4,9 @@
     display: flex;
 }
 
-.text_box{
+/* .text_box{
     font-size: 2rem;
-    text-align: center;
+    text-align: start;
     height: 200px;
   }
   
@@ -19,7 +19,22 @@
     to {
       opacity: 0;
     }
-  }
+  } */
+
+.box{
+    height: 20vh; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content: center; 
+    align-items: flex-start;}
+  p.result1,p.result2{ display: inline-block; font-size:2rem; height:30px; line-height: 30px; border-right: 1px solid #fff; padding-right: 2px; box-sizing: border-box; padding:0; margin:5px; }
+  p.cursor {animation: cursor 0.4s infinite;}
+  
+   @keyframes cursor{ 
+        0%{border-right: 1px solid #fff} 
+        50%{border-right: 1px solid #000} 
+        100%{border-right: 1px solid #fff} 
+      }
 
 .title_line {
     border-bottom-color: #f0f0f0;
