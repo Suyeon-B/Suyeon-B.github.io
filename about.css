@@ -25,3 +25,10 @@
     border-bottom-style: solid;
 }
 
+.about_me_table {
+    display: flex;
+}
+
+.content {
+    margin-left: 20px;
+}
