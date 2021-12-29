@@ -60,3 +60,11 @@ p.cursor {
 .months{
     margin-left: 10px;
 }
+
+.blog {
+    display: flex;
+}
+
+.blog_wrapper {
+    margin-left: 5px;
+}
