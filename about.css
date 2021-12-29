@@ -33,3 +33,12 @@
 .content {
     margin-left: 20px;
 }
+
+.about_me_wrapper {
+    display: flex;
+    align-items: end;
+}
+
+.months{
+    margin-left: 20px;
+}
