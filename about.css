@@ -42,6 +42,7 @@ p.cursor {
 .title_line {
     border-bottom-color: #f0f0f0;
     border-bottom-style: solid;
+    margin-bottom: 10px;
 }
 
 .about_me_table {
@@ -75,5 +76,5 @@ p.cursor {
 }
 
 .date{
-    color: #f0f0f0;
+    color: #a1a1a1;
 }
