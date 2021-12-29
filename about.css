@@ -1,0 +1,14 @@
+.inform{
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.hi{
+    color: #ff5100;
+}
+
+.title_line {
+    border-bottom-color: #f0f0f0;
+    border-bottom-style: solid;
+}
+
