@@ -115,7 +115,7 @@ function typi(){
       setTimeout(function(){             
          resultDiv2.classList.add("cursor");
          setTimeout(function(){
-            inter2 = setInterval(typi2,150);
+            inter2 = setInterval(typi2,100);
          },400);
        },300);
      },400);
