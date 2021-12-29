@@ -1,25 +1,13 @@
-var typingBool = false; 
-var typingIdx=0; 
+const content = "안녕하세요! \n 외국어와 개발 공부를 즐기는 개발자, 박수연입니다. :)";
+const text = document.querySelector(".text");
+let i = 0;
 
-// 타이핑될 텍스트를 가져온다 
-var typingTxt = $(".typing-txt").text(); 
-
-typingTxt=typingTxt.split(""); // 한글자씩 자른다. 
-
-if(typingBool==false){ 
-  // 타이핑이 진행되지 않았다면 
-   typingBool=true;     
-   var tyInt = setInterval(typing,100); // 반복동작 
-} 
-     
-function typing(){ 
-  if(typingIdx<typingTxt.length){ 
-    // 타이핑될 텍스트 길이만큼 반복 
-    $(".typing").append(typingTxt[typingIdx]);
-    // 한글자씩 이어준다. 
-    typingIdx++; 
-   } else{ 
-     //끝나면 반복종료 
-    clearInterval(tyInt); 
-   } 
-}  
+function typing(){
+    let txt = content[i++];
+    text.innerHTML += txt=== "\n" ? "<br/>": txt;
+    if (i > content.length) {
+        text.textContent = "";
+        i = 0;
+    }
+}
+setInterval(typing, 200)
