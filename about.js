@@ -40,7 +40,7 @@ String.prototype.toKorChars = function() {
 
 //타이핑할 문장
 var result1  = "안녕하세요!";
-var result2  = "외국어와 개발 공부를 즐기는 박수연입니다. :)";
+var result2  = "소통을 좋아하는 개발자, 박수연입니다. :)";
 var typeing1=[], typeing2=[];;
 result1 = result1.split(''); // 한글자씩자름
 result2 = result2.split(''); // 한글자씩자름

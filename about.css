@@ -48,7 +48,7 @@ p.cursor {
     display: flex;
 }
 
-.content {
+.content, .organ {
     margin-left: 20px;
 }
 
@@ -67,4 +67,13 @@ p.cursor {
 
 .blog_wrapper {
     margin-left: 5px;
+}
+
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.date{
+    color: #f0f0f0;
 }
