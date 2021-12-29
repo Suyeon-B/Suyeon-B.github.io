@@ -70,12 +70,23 @@ p.cursor {
     margin-left: 5px;
 }
 
-.name{
-    font-size: 30px;
-    font-weight: bold;
+.name_wrapper {
+    display: flex;
 }
 
-.date, .category{
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.english_name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff5100;
+}
+
+.date, .category, .project_title{
     color: #a1a1a1;
     width: 175px;
 }
@@ -83,3 +94,4 @@ p.cursor {
 .content.organ{
     width: 200px;
 }
+
