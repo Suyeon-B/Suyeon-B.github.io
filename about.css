@@ -2,6 +2,7 @@
     padding: 50px 60px 30px 60px;
     background-color: #f0f0f0;
     display: flex;
+    justify-content: space-between;
 }
 
 .box {
@@ -99,4 +100,8 @@ p.cursor {
 
 .photo {
     background-image: url(assets/images/증명사진.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 200px;
 }
