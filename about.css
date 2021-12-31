@@ -97,3 +97,6 @@ p.cursor {
     width: 200px;
 }
 
+.photo {
+    background-image: url(assets/images/증명사진.JPG);
+}
