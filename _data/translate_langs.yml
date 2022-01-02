@@ -5,6 +5,10 @@
   img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
   text: English
 
+- lang: hu
+  img: https://cdn.countryflags.com/thumbs/hungary/flag-400.png
+  text: Hungarian
+
 - lang: fr
   img: https://cdn.countryflags.com/thumbs/france/flag-400.png
   text: French
