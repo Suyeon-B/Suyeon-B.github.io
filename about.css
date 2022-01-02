@@ -59,7 +59,7 @@ p.cursor {
     align-items: baseline;
 }
 
-.months{
+.months, p.p_subtitle{
     margin-left: 10px;
 }
 
@@ -89,7 +89,7 @@ p.cursor {
     margin-left: 5px;
 }
 
-.date, .category, .project_title{
+.date, .category, .project_title {
     color: #a1a1a1;
     width: 175px;
 }
@@ -104,4 +104,9 @@ p.cursor {
     background-repeat: no-repeat;
     height: auto;
     width: 210px;
+}
+
+.p_title_wrapper {
+    display: flex;
+    align-items: self-end;
 }
