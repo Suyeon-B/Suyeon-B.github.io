@@ -50,10 +50,6 @@ p.cursor {
     display: flex;
 }
 
-.content, .organ {
-    margin-left: 20px;
-}
-
 .about_me_wrapper {
     display: flex;
     align-items: baseline;
@@ -109,4 +105,16 @@ p.cursor {
 .p_title_wrapper {
     display: flex;
     align-items: self-end;
+}
+
+.p_contents {
+    display: flex;
+}
+
+.content, .organ, div#content_col, .p_link {
+    margin-left: 20px;
+}
+
+div#content_col.p_purpose {
+    width: 470px;
 }
