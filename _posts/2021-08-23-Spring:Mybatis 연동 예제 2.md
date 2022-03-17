@@ -3,7 +3,7 @@ layout: post
 title: MyBatis-Spring 예제) ➋ MyBatis-Spring 연결 & DB 테스트
 author: SuyeonBak
 categories: Database
-banner:
+banner: 
   image: /assets/images/post_images/Spring-MyBatis 연동 포스팅/MyBatis-Spring.png
   opacity: 0.618
   background: "#000"
