@@ -8,11 +8,8 @@ sitemap :
   priority : 1.0
 ---
 
-### Github 블로그 만들기 시리즈 ⛓
 
----
-
-### 댓글 구현에 앞서
+## 댓글 구현에 앞서
 
 먼저 [<span style="color:#ff5100">**정적 웹 페이지**</span>와 <span style="color:#ff5100">**동적 웹 페이지**</span>의 차이](https://suyeon-b.github.io/web/2021/08/25/%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80.html)를 보시면,
 
@@ -30,7 +27,7 @@ sitemap :
 
 
 
-### Disqus 댓글 플랫폼이 탈락한 이유
+## Disqus 댓글 플랫폼이 탈락한 이유
 
 - 광고가 엄청 붙습니다. (게다가 광고를 지우려면 매달 9$를 결제해야하는...)
 - 디자인이 마음에 들지 않습니다.
@@ -39,11 +36,11 @@ sitemap :
 
 
 
-### utterances란?
+## utterances란?
 
 댓글 기능을 제공하는 깃허브 앱입니다.
 
-### utterances의 장점 🧞‍♀️
+## utterances의 장점 🧞‍♀️
 
 - 깃허브 계정만 있으면 운영이 가능합니다. (기술 블로그이기 때문에, 대부분의 방문해주신 분들은 깃허브 계정이 있으실거라고 판단했습니다.)
 - 댓글 알림을 메일로 받을 수 있고, 깃허브로 관리가 용이합니다.
@@ -90,7 +87,7 @@ sitemap :
 
 ### 3. Install 후 작성할 것들
 
-### 	3-1. Repository
+#### 	3-1. Repository
 
 > repo:<br>github아이디/레포지토리이름
 >
@@ -98,7 +95,7 @@ sitemap :
 
 
 
-### 	3-2. Blog Post ↔️ Issue Mapping
+#### 	3-2. Blog Post ↔️ Issue Mapping
 
 > 저는 고유한 값을 매핑시키기 위해 'Issue title contains page pathname' 선택했습니다.
 
@@ -110,11 +107,11 @@ sitemap :
 
 ### 4. 블로그에 적용시키기
 
-### 	4-1. Theme
+#### 	4-1. Theme
 
 > 원하는 색상으로 선택하시면 됩니다.
 
-### 	4-2. Enable Utterances
+#### 	4-2. Enable Utterances
 
 > 아래 코드를 repo와 테마 색상만 본인과 맞게 수정하셔서, 📄gitment.html 파일에 기존 script 부분을 대체하시면 됩니다.
 
