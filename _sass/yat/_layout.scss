@@ -320,7 +320,7 @@ html {
   }
 
   .post-link {
-    @include relative-font-size(1.65);
+    @include relative-font-size(1.25);
     font-weight: $base-font-weight * 1.5;
     color: #333;
   }
@@ -458,7 +458,7 @@ html {
 
   .post-related {
     &>*:first-child {
-      @include relative-font-size(1.425);
+      @include relative-font-size(1.225);
       color: #333;
       margin-bottom: 14px;
     }
@@ -466,7 +466,7 @@ html {
     ul {
       margin-left: 15px;
       .post-link {
-        @include relative-font-size(1.475);
+        @include relative-font-size(1.275);
       }
 
       a {
@@ -765,7 +765,7 @@ html {
       padding: 0px 3px;
       background-color: $brand-color;
       color: #fff;
-      font-size: 16px;
+      font-size: 10px;
       font-weight: 600;
       border-radius: 2px;
     }
