@@ -10,7 +10,10 @@ banner:
   background: "#000"
   height: "100vh"
   min_height: "38vh"
-  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: none"
+  heading_style: 
+  font-size: 4.25em; 
+  font-weight: bold; 
+  text-decoration: none
   subheading_style: "color: #ff5100; font-weight: 400"
 tags: [Database, MySQL, MySQL 비밀번호, MySQL 삭제 및 재설치]
 sitemap :
