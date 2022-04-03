@@ -321,7 +321,7 @@ html {
 
   .post-link {
     @include relative-font-size(1.25);
-    font-weight: $base-font-weight * 1.5;
+    font-weight: $base-font-weight * 1.25;
     color: #333;
   }
 
@@ -512,7 +512,7 @@ html {
   padding: 31px 0 0;
 
   a {
-    @include relative-font-size(1.425);
+    @include relative-font-size(1.125);
     line-height: 15px;
     color: #666;
     max-width: 50%;
