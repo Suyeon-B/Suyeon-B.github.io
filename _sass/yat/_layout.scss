@@ -466,7 +466,7 @@ html {
     ul {
       margin-left: 15px;
       .post-link {
-        @include relative-font-size(1.075);
+        @include relative-font-size(1.475);
       }
 
       a {
@@ -512,7 +512,7 @@ html {
   padding: 31px 0 0;
 
   a {
-    @include relative-font-size(1.125);
+    @include relative-font-size(1.425);
     line-height: 15px;
     color: #666;
     max-width: 50%;
@@ -634,7 +634,7 @@ html {
         transition: 0.2s all;
 
         @include media-query($on-palm) {
-          @include relative-font-size(1.175);
+          @include relative-font-size(1.275);
         }
       }
 
@@ -765,7 +765,7 @@ html {
       padding: 0px 3px;
       background-color: $brand-color;
       color: #fff;
-      font-size: 10px;
+      font-size: 14px;
       font-weight: 600;
       border-radius: 2px;
     }
