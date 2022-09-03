@@ -1,29 +1,45 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c"></meta>
-  <meta name="google-site-verification" content="dbpNKZ1RA4TkptK0MaO6KxOHOK6E2JA7Qkl8LdcsJqk" />
-  <meta name="naver-site-verification" content="366a0c67998c44f91f5641d1174c8a07c734002a" />
-  {%- seo -%}
-  <link rel="shortcut icon" href="{{ site.favicon }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <script src="https://kit.fontawesome.com/808d99b1b9.js" crossorigin="anonymous"></script>
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66SKJ6STTN"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
 
-    gtag('config', 'G-66SKJ6STTN');
-  </script>
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-  {%- include extensions/google-analytics.html -%}
-  {%- endif -%}
-  {%- include extensions/code-highlight.html -%}
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
+  <!-- Spoqa Han Sans -->
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <!-- OG Tag -->
+  {% if page.title %}
+  {% assign title = site.theme_settings.title | append: "-" | append: page.title %}
+  {% else %}
+  {% assign title = site.theme_settings.title %}
+  {% endif %}
+  <meta name="title" content="{{ title }}" />
+  <meta name="author" content="{{ site.theme_settings.profile.username }}" />
+  <meta name="keywords" content="{{ page.tags | join: ',' }}" />
+  <meta name="description" content="{{ page.subtitle }}" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ page.subtitle }}" />
+  <meta property="og:type" content="website, blog" />
+  <meta property="og:image"
+    content="{{ site.url }}/{% if page.image %}{{ page.image }}{% else %}{{ site.theme_settings.profile.image }}{% endif %}" />
+  <meta property="og:site_name" content="{{ site.theme_settings.title }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ page.subtitle }}" />
+  <meta name="twitter:image"
+    content="{{ site.url }}/{% if page.image %}{{ page.image }}{% else %}{{ site.theme_settings.profile.image }}{% endif %}" />
+
+  <title>{{ title }}</title>
 </head>

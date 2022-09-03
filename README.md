@@ -1,194 +1,207 @@
-<div align="center">
-  <br>
+# Grape-Theme
 
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
-    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
-  </a>
+![home](./assets/img/home.png)
 
-  <h1>🎨 JEKYLL YAT THEME 🎨</h1>
+블로그뿐만 아니라 포트폴리오 페이지도 지원하는 Grape-Theme를 자유롭게 사용하세요.
 
-</div>
-
-<h4 align="center">
-  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
-</h4>
-
-<p align="center">
-  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
-    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
-      alt="Github Pages" />
-  </a>
-
-  <a href="http://badge.fury.io/rb/jekyll-theme-yat">
-    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
-      alt="Gem Version" />
-  </a>
-
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
-      alt="License: MIT" />
-  </a>
-
-  <a href="https://liberapay.com/jeffreytse">
-    <img src="http://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
-      alt="Donate (Liberapay)" />
-  </a>
-
-  <a href="https://patreon.com/jeffreytse">
-    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
-      alt="Donate (Patreon)" />
-  </a>
-
-  <a href="https://ko-fi.com/jeffreytse">
-  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
-  alt="Donate (Ko-fi)" />
-  </a>
-</p>
-
-<div align="center">
-  <sub>Built with ❤︎ by
-  <a href="https://jeffreytse.net">jeffreytse</a> and
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
-</div>
-
+Welcome to Grape Theme!  It is good for a portfolio as well as a blog.
 <br>
+Customize Grape-Theme and use it for free.
 
-Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
-**Yet Another Theme** is a modern responsive theme, and it's quiet clear,
-clean and neat for writers and posts. **If you like the theme, give it
-a star!**
+[Demo](https://grape-theme.netlify.com)
 
 
-<p align="center">
 
-  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="780px"/>
+## Installation
 
-</p>
+1. Fork and clone the Grape Theme repo
 
-<h3 align="center">🌌 Night Mode</h3>
+   ```
+   git clone https://github.com/naye0ng/Grape-Theme.git
+   ```
 
-<p align="center">
+2. Install Jekyll 
 
-  <img src="https://user-images.githubusercontent.com/9413601/94983351-760f6e00-0574-11eb-9494-5303ad6228dc.gif" alt="demo-screenshot" width="780px"/>
+   ```
+   gem install jekyll
+   ```
 
-</p>
+3. Install the theme's dependencies
 
-## ✨ Features
+   ```
+   bundle install
+   ```
 
-- Support beautiful __Night Mode__.
-- Modern responsive web design.
-- Full layouts `home`, `post`, `tags`, `archive` and `about`.
-- Uses font awesome 5 for icons.
-- Beautiful Syntax Highlight using [highlight.js][highlight-js].
-- RSS support using [Jekyll Feed][jekyll-feed] gem.
-- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
-- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
-- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Google Translation support.
-- New post tag support.
+4. Update `_config.yml` and `projects.yml` with your own settings.
 
-Also, visit the [Live Demo][yat-live-demo] site for the theme.
+5. Run the Jekyll server
 
-## 🛠️  Installation
+   ```
+   bundle exec jekyll serve
+   ```
 
-There are three ways to install:
+   
 
-- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
-- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
-- Forking/directly copying all of the theme files into your project.
+## Customizing
 
-### Gem-based Theme Method
+Grape-Theme에서는 자랑할 만한 두 가지 기능을 제공합니다. 홈 화면의 프로필 섹션과 포트폴리오 페이지의 프로젝트, 상세 프로필 기능이 그것 입니다. 이 모든 기능들은  `_config.yml` 와 `projects.yml` 파일을 수정하는 것만으로도 충분합니다.
 
-Add this line to your Jekyll site's `Gemfile`:
+Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing  `_config.yml` and `projects.yml` , you can use all of these features.
 
-```ruby
-gem "jekyll-theme-yat"
+
+
+### Blog Settings
+
+기본적인 블로그 설정은 `config.yml` 에서 가능합니다.
+
+The blog configuration is available in `config.yml`.
+
+#### Site configuration
+
+```
+baseurl: "{subpath}"
+url : "https://{username}.github.io"
+
+theme_settings :
+  title : {blog title}
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
 
-```yaml
-theme: jekyll-theme-yat
+
+#### Profile Settings
+
+간단한 프로필 정보는 홈 화면에서 출력되며, experience 및 skills 부분은 포트폴리오 페이지에서 함께 보여집니다.
+
+Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
+
+```
+profile :
+  image : assets/img/{prorile image}
+    username : {username}
+    description : 
+    experience :
+      - start :
+        end : 
+        experience : {company name}, {title}
+     skills : 
+      - skill : 
+        value : 85  # Percent value
 ```
 
-And then execute:
 
-```bash
-$ bundle
+
+#### Pagination
+
+한 페이지에서 보여질 포스팅 개수를 정의합니다.
+
+Defines the number of posts to be shown on one page.
+
+```
+paginate: 5
 ```
 
-Or install it yourself as:
 
-```bash
-$ gem install jekyll-theme-yat
+
+#### Disqus
+
+[Disqus shortname](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)을 설정하고, 포스팅 속성에 `comments : true` 를 추가하면 블로그 글에서 댓글을 사용할 수 있습니다.
+
+you can use the comments by following [document](https://help.disqus.com/en/articles/1717111-what-s-a-shortname) and adding a `comments : true` 
+
+``` 
+disqus_shortname :
 ```
 
-### Remote Theme Method with GitHub Pages
 
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
 
-To install:
+### Portfolio Settings
 
-Add this line to your Jekyll site's `Gemfile`:
+![home](./assets/img/portfolio.png)
 
-```ruby
-gem "github-pages", group: :jekyll_plugins
+프로젝트 세팅은 `_data/projects.yml`에서 가능합니다.
+
+The Project configuration is available in `_data/projects.yml`.
+
+포트폴리오 페이지에서는 프로젝트 목록과 상세보기를 모달로 지원합니다. 물론 상세보기는 선택적이며, 상세값이 `modal : False`인 경우 모달 버튼은 생성되지 않습니다.
+
+The portfolio page provides projects and detailed views by modal.   If `modal : False` is selected, modal will not be displayed on site. 
+
+- **print** : 
+  
+  -  `print : True` 를 선택한다면, 블로그의 홈 화면에서도 프로젝트의 정보가 출력됩니다.
+  - If `print : True` is selected, it will be displayed on landing page
+  
+   ![print project](./assets/img/print-project.png)
+  
+- **modal** 
+  - `modal : True` 를 선택한다면 모달 버튼이 활성와 됩니다.
+  
+  - If `modal : True` is selected, modal will be displayed on the Portfolio page
+  
+    ![home](./assets/img/modal.png)
+
+```
+print : True
+modal : True  
+```
+당신의 프로젝트에 대한 링크와 상세 설명을 아래와 같이 추가하세요.
+
+Add details(link, description) about your projects
+
+```
+url : https://github.com/naye0ng/Grape-Theme # Full URL
+image : "portfolio.png" # path: assets/project/
+date : 2019.06.09 - 2019.07.11
+title : 
+summary : 
+description :  
+# modal contents
+contents :
+  - title :
+    image :      	    
+    description : 
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-remote_theme: "jeffreytse/jekyll-theme-yat"
-```
-
-And then execute:
-
-```bash
-$ bundle
-```
-
-### GitHub Pages without limitation
-
-GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). __In other words, the third-party gems will not work normally__.
-
-To use the third-party gem in GitHub Pages without limitation:
-
-Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
 
 
-## 📚 Usage
+### Colors
 
-Add or update your available layouts, includes, sass and/or assets.
+블로그의 컬러들은 `_sass/base/_variable.scss` 에서 한번에 변경이 가능합니다.
 
-## ✏️  Development
+You can change colors at once. colors are in `_sass/base/_variable.scss`
 
-To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
+## Posts in Grape theme
 
-## 🔫 Contributing
+이 블로그의 모든 포스팅 스타일은  `_sass/base/_utility.scss` 에 정의되어 있으며 [Demo page](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html)와 [Demo page](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)에서 여러 태그들의 출력을 확인할 수 있습니다.
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html) and [here](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)
 
-You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+### Create a new post
 
-## 🌈 License
+1. Create a `.md` inside `_posts` folder
 
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
+   ```
+   2019-07-11-grape-theme.md
+   ```
+   > 한글로 파일 이름을 만드는 경우, 구글 검색을 붙였을때 문제가 발생합니다. 되로록 영어를 사용해주세요:D
+2. Write the [Front Matter](https://jekyllrb.com/docs/front-matter/) and content in the file.
 
-<!-- External links -->
-[jekyll]: https://jekyllrb.com/
-[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
-[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
-[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
-[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
-[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
-[jekyll-feed]: https://github.com/jekyll/jekyll-feed
-[highlight-js]: https://github.com/highlightjs/highlight.js
+   ```
+   ---
+   layout: post
+   title: title
+   subtitle : subtitle
+   tags: [tag1, tag2]
+   author: 
+   comments : 
+   ---
+   ```
+
+
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
