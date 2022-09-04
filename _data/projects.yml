@@ -80,7 +80,7 @@
     date: 2021.10 - 2021.11 (2개월) / 4명
     title: News Addon
     summary: 디지털 사이니지 산업에 필요한 애드온 앱
-    description: 고객이 정한 시간에 뉴스가 디지털 사이니지에 나오도록 만든 서비스!
+    description: 고객이 정한 시간에 뉴스가 디지털 사이니지에 나오도록 만든 News Addon
     contents:
       - title: 1. 서비스 소개
         image:

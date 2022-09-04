@@ -180,11 +180,14 @@ ol,
 ul {
   li {
     font-size: 15px;
+    transition-property: background-color, color;
+    transition-duration: 0.5s, 0.5s;
   }
 }
 em {
   font-size: 15px;
 }
+
 a:link,
 a:visited,
 a:active,
@@ -240,6 +243,8 @@ a:hover {
     line-height: 42px;
     margin-right: 10px;
     text-align: center;
+    transition-property: background-color, color;
+    transition-duration: 0.5s, 0.5s;
   }
   i:hover {
     background-color: $theme-dark;
@@ -260,6 +265,8 @@ a:hover {
       border-radius: 15px;
       font-weight: 600;
       background-color: rgba(0, 0, 0, 0.07);
+      transition-property: background-color, color;
+      transition-duration: 0.5s, 0.5s;
     }
   }
   .return-btn:hover {
@@ -268,4 +275,13 @@ a:hover {
       color: #fff;
     }
   }
+}
+html,
+body,
+a,
+highlighter-rouge,
+tag,
+i {
+  transition-property: background-color, color;
+  transition-duration: 0.5s, 0.5s;
 }
