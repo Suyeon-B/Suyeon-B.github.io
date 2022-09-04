@@ -1,38 +1,135 @@
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
-    contents :
-        - title : 1. 블로그 첫 화면 구성
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2. 태그 페이지
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3. 남은 개발 과제
-          image :
-          description : <li>project 부분 디자인 변경</li>
-            <li>favicon.ico, search 기능</li>
-            <li>OG Tag 추가</li>
-            <li>profile 이미지 효과</li>
-            <li>gem 배포</li> 
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/Suyeon-B/Nolmungshimung # Full URL
+    image: "nolmungshimung_home.png" # path: assets/project/
+    date: 2022.06.30 - 2022.08.05 (5주) / 5명
+    title: 놀멍쉬멍
+    summary: 제주 여행계획 실시간 공유편집 서비스 <br><a href="https://nolmungshimung.vercel.app">(서비스 Link)</a>
+    description: 친구와 함께 제주 여행계획을 실시간으로 공유편집해요. <br>계획이 귀찮다면 추천 계획을 가져올 수도 있답니다! 😆
+    contents:
+      - title: 1. 서비스 소개
+        image: nolmungshimung.png
+        description: <li>잘 짜인 여행코스를 내 계획으로</li>
+          <p><img src="/assets/project/service1.gif"></p>
+          <li>쉽게 검색해서 추가하고, 친구와 함께 수정하는 계획</li>
+          <p><img src="/assets/project/service2.gif"></p>
+          <li>내 계획을 자랑하고 싶다면, hashtag와 함께 업로드!</li>
+          <p><img src="/assets/project/service3.gif"></p>
+          <li>서비스 시연 영상 ➡ <a href="https://www.youtube.com/watch?v=XEffEqWXxaA&feature=youtu.be">(Link)</a></li>
+      - title: 2. 주요 기능
+        image:
+        description: <li>음성채팅 ( Peer to Peer )</li>
+          <li>여행 계획 생성 및 수정</li>
+          <li>여행지 검색, 상세정보 제공</li>
+          <li>여행 경로 동시 편집 ( Drag & Drop )</li>
+          <li>여행 경로 지도에 실시간 반영</li>
+          <li>공유편집 메모</li>
+          <li>결과 페이지 (모든 여행 경로를 한눈에!)</li>
+          <li>추천 계획 제공</li>
 
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Dummy project
-    summary : This is Dummy
-    description :  
+      - title: 3. 포스터
+        image: poster.png
+
+      - title: 4. 더 궁금하시다면?
+        image:
+        description: <li>GitHub으로 <a href="https://github.com/Suyeon-B/Nolmungshimung">바로가기 (Link)</a></li>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/Suyeon-B/pintos-kaist # Full URL
+    image: pintos-design.png # path: assets/project/
+    date: 2022.05 - 2022.06 (6주) / 3명
+    title: Pintos-Kaist
+    summary: KAIST 권영진 교수님 주도 하에 만들어진 `KAIST PintOS` 프로젝트입니다.
+    description: 스케줄링, 가상 메모리 등을 구현하여 기존의 OS를 더 강력하게 만드는 프로젝트!
+    contents:
+      - title: 포기하고 싶은 순간 후의 성장
+        image: pintos-kaist.png
+        description: <br>
+          <h6>Thread Sleep & Wake up</h6>
+          <li>wait list를 구현하여 스레드의 busy waiting 현상 방지</li>
+          <li>"tick마다 sleep thread list를 모두 순회하는 것이 정말 최선인가" 에 대한 고민</li>
+          <li>고민 과정 기록 <a href="https://flicker-alyssum-bb5.notion.site/Alarm-Clock-fb45b6cede924324973a79c0e7743ece">(Link)</a></li>
+          <br>
+
+          <h6>Priority donation</h6>
+
+          <li>Thread의 우선순위에 따라 Scheduling</li>
+          <li>"Donation 대상의 범위는 어디까지인가" 에 대한 고민</li>
+          <li>고민 과정 기록 <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></li>
+          <br>
+
+          <h6>Virtual Memory</h6>
+
+          <li>Page Fault 가 발생했을 때 필요시 Stack Growth 구현</li>
+          <li>"어떤 이유로 rsp가 stack bottom보다 아래에 존재하는 경우가 생겨 page fault가 발생하는가</li>
+          <li>고민 과정 기록 <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></li>
+          <br>
+
+      - title: 더 궁금하시다면?
+        image:
+        description: <li>GitHub으로 <a href="https://github.com/Suyeon-B/pintos-kaist">바로가기 (Link)</a></li>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/Suyeon-B/PlusTV_NewsAddon # Full URL
+    image: news_addon.png # path: assets/project/
+    date: 2021.10 - 2021.11 (2개월) / 4명
+    title: News Addon
+    summary: 디지털 사이니지 산업에 필요한 애드온 앱
+    description: 고객이 정한 시간에 뉴스가 디지털 사이니지에 나오도록 만든 서비스!
+    contents:
+      - title: 1. 서비스 소개
+        image:
+        description: <br>
+          <h6>기존 CMS에 추가된 애드온 탭!</h6>
+          <p><img src="/assets/project/addon_tab.png"></p>
+          <li>"뉴스 피드" 탭 클릭하여 고객이 시간대와 뉴스를 커스텀할 수 있어요.</li>
+          <br>
+          <br>
+          <h6>원하는 뉴스를 등록해요.</h6>
+          <p><img src="/assets/project/add_newsfeed.png"></p>
+          <p><img src="/assets/project/added_newsfeed.png"></p>
+          <li>적절한 제목과 xml url로 고객이 원하는 뉴스를 등록할 수 있어요.</li>
+          <br>
+          <h6>등록한 뉴스로 재생목록을 자유롭게 구성해요.</h6>
+          <p><img src="/assets/project/custom_newsfeed.png"></p>
+          <li>다양한 레이아웃으로 원하는 시간을 등록해 뉴스를 등록할 수 있어요.</li>
+          <br>
+          <br>
+          <h6>사용자가 커스텀한 뉴스피드를 사이니지 기기에서 볼 수 있어요.</h6>
+          <p><img src="/assets/project/news_addon.png"></p>
+          <li>다양한 레이아웃으로 원하는 시간을 등록해 뉴스를 등록할 수 있어요.</li>
+          <br>
+
+      - title: 2. 인상적인 부분
+        image:
+        description: <br>
+          <h6>front-end와 back-end의 병렬 개발</h6>
+          <p><img src="/assets/project/msw.png"></p>
+          <li>마감 기한에 맞추려면 백엔드 개발 완료까지 대기할 수 없는 문제 발생</li>
+          <li>MSW(Mock Service Worker) 라이브러리를 통해 실제 백엔드 API를 사용하는 것과 같이 Mocked API를 구현 및 활용하여 프론트엔드 개발을 먼저 완료</li>
+          <br>
+
+      - title: 3. 더 궁금하시다면?
+        image:
+        description: <li>GitHub으로 <a href="https://github.com/Suyeon-B/PlusTV_NewsAddon">바로가기 (Link)</a></li>
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/Suyeon-B/Apple # Full URL
+    image: apple_home.png # path: assets/project/
+    date: 2021.9 (1개월)
+    title: Apple 홈페이지 직접 구현
+    summary: 비전공자 시절, 애플 홈페이지를 따라 만들어본 미니 프로젝트 <br><a href="https://suyeon-b.github.io/Apple/">(서비스 Link)</a>
+    description: apple 홈페이지 코드를 보지 않고, 비슷하게 만든 첫 프로젝트입니다.
+    contents:
+      - title: 더 궁금하시다면?
+        image:
+        description: <p><img src="/assets/project/apple.gif"></p>
+          <li> Apple 에서 <a href="https://suyeon-b.github.io/Apple/">직접 보기 (Link)</a></li>
+          <li>GitHub으로 <a href="https://github.com/Suyeon-B/Apple">바로가기 (Link)</a></li>

@@ -1,40 +1,64 @@
 # Site Settings
 baseurl: ""
-url : "https://suyeon-b.github.io"
+url: "https://suyeon-b.github.io"
 
 # Blog Settings
-theme_settings :
-  title : just do it
-  favicon : assets/favicon.ico
+theme_settings:
+  title: Just do it!
+  favicon: assets/favicon.ico
 
   # Profile Settings
-  profile :
-    image : assets/img/smile.png
-    username : Suyeon Bak
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
-        
+  profile:
+    image: assets/img/me.jpg
+    username: Suyeon Bak
+    description:
+    experience:
+      - start: 2020-09
+        end: 2021-08
+        experience: 한국외국어대학교 글로벌캠퍼스 | 헝가리어과 학부조교
+      - start: 2020-01
+        end: 2020-07
+        experience: 삼성전자 헝가리 법인 | 인사총무팀 인턴
+      - start: 2017-02
+        end: 2019-06
+        experience: 영국 EM 학원 | 초·중등반 수학, 영어 회화 강사
+    education:
+      - start: 2022-03
+        end: 2022-08
+        education: SW 사관학교 정글 | KAIST 비학위 프로그램
+      - start: 2017-02
+        end: 2022-02
+        education: 한국외국어대학교 글로벌 캠퍼스 | 헝가리어 & 컴퓨터공학
+      - start: 2019-09
+        end: 2019-12
+        education: Balassi Intézet | Language & Culture Course
+
+    # skills:
+    #   - skill: HTML5 & CSS
+    #     value: 85 # Percent value
+
   # Icons
-  icons :
+  icons:
     email: "tndus4243@naver.com"
-    linkedin:  # Full URL 
+    linkedin: # Full URL
     github: suyeon-b
-    gitlab: 
-    bitbucket: 
+    gitlab:
+    bitbucket:
     google_plus:
     twitter:
-    youtube: "https://www.youtube.com/channel/UCI8k3pjh5ZwySyf-mqoRZ9Q"
+    youtube: /UCI8k3pjh5ZwySyf-mqoRZ9Q
     facebook:
-    instagram: "https://www.instagram.com/nosuyeonnolife/"
+    instagram: nosuyeonnolife/
 
-  # Disqus
-  disqus_shortname : suyeon-gitblog
+  # Gitment comments
+  gitment:
+    username: Suyeon-B
+    repo: Suyeon-B/comments
+    client_id: 02caca6bbae1a7ad33a1
+    client_secret: a2c9f08e73745f5c8f8208c9da78b6a7df8c6d26
+
+# Google analytics
+google_analytics: "G-66SKJ6STTN"
 
 # Pagination
 paginate: 5
@@ -44,6 +68,6 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 bootstrap:
   assets: true
