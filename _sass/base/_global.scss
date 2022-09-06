@@ -194,6 +194,7 @@ a:active,
 a:hover {
   text-decoration: none;
   color: $text;
+  cursor: pointer;
 }
 .container {
   padding-top: 30px;
@@ -281,7 +282,8 @@ body,
 a,
 highlighter-rouge,
 tag,
-i {
+i,
+span {
   transition-property: background-color, color;
   transition-duration: 0.5s, 0.5s;
 }
