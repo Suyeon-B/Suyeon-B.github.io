@@ -48,24 +48,19 @@
       - title: 포기하고 싶은 순간 후의 성장
         image: pintos-kaist.png
         description: <br>
-          <h6>Thread Sleep & Wake up</h6>
+          <h6>Thread Sleep & Wake up <a href="https://flicker-alyssum-bb5.notion.site/Alarm-Clock-fb45b6cede924324973a79c0e7743ece">(Link)</a></h6>
           <li>wait list를 구현하여 스레드의 busy waiting 현상 방지</li>
           <li>"tick마다 sleep thread list를 모두 순회하는 것이 정말 최선인가" 에 대한 고민</li>
-          <li>고민 과정 기록 <a href="https://flicker-alyssum-bb5.notion.site/Alarm-Clock-fb45b6cede924324973a79c0e7743ece">(Link)</a></li>
           <br>
 
-          <h6>Priority donation</h6>
-
+          <h6>Priority donation <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></h6>
           <li>Thread의 우선순위에 따라 Scheduling</li>
           <li>"Donation 대상의 범위는 어디까지인가" 에 대한 고민</li>
-          <li>고민 과정 기록 <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></li>
           <br>
 
-          <h6>Virtual Memory</h6>
-
+          <h6>Virtual Memory <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></h6>
           <li>Page Fault 가 발생했을 때 필요시 Stack Growth 구현</li>
           <li>"어떤 이유로 rsp가 stack bottom보다 아래에 존재하는 경우가 생겨 page fault가 발생하는가</li>
-          <li>고민 과정 기록 <a href="notion://www.notion.so/priority-scheduling-1ed20bc406964392b18d64d6a33183fb">(Link)</a></li>
           <br>
 
       - title: 더 궁금하시다면?
