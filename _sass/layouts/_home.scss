@@ -33,7 +33,8 @@
       min-width: 100%;
     }
   }
-  #posts {
+  #posts,
+  #search-results {
     @extend %posts-padding;
     .post {
       width: 100%;
