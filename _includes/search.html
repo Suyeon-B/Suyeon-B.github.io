@@ -24,7 +24,7 @@
       "excerpt":"{{ doc.subtitle }}",
       {%- endif %}
       "tags": [
-        {%- for tag in doc.tags -%}
+        {%- for tag in encodeURI(doc.tags) -%}
           {
             "name":  "{{ tag | xml_escape }}",
             "url":  "{{site.baseurl}}/tags#{{ tag | cgi_escape }}",
